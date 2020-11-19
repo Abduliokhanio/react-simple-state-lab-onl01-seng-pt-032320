@@ -11,14 +11,14 @@ export default class Cell extends Component {
     handleClick = (e) => {
         this.setState({color: '#333'});
     }
-    
+
     render() {
         return (
-            <div className="cell" 
-            style={{backgroundColor: this.state.color}} 
+            <div className="cell"
+            style={{backgroundColor: this.state.color}}
             onClick={this.handleClick}
             >
-                
+
             </div>
         )
     }
